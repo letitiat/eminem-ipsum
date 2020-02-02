@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import "./paragraphs.scss";
+import Paragraphs from "../../images/paragraphs.svg";
 
 class SetParagraphs extends Component {
   render() {

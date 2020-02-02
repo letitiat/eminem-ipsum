@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Generator.scss';
+import './generator.scss';
 
 class GeneratorComponent extends Component {
   render() {

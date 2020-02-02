@@ -1,0 +1,26 @@
+.paragraphs {
+  width: 220px;
+  height: 140px;
+  background-image: url('../../images/paragraphs.svg');
+  position: absolute;
+  top: 200px;
+  right: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  label {
+    display: block;
+    text-align: center;
+    font-family: 'oswald';
+    padding: 42px 10px 5px;
+    color: #4AB3C9;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+
+  select {
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -13,6 +13,11 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `oswald`,
+        ],
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
