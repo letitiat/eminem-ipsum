@@ -1,0 +1,56 @@
+.sentences {
+  width: 140px;
+  height: 100px;
+  background-image: url('../../images/sentences.svg');
+  position: absolute;
+  top: 50px;
+  right: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+      &::before {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        background-color: #F0DB0B;
+        opacity: 30%;
+        top: 130px;
+        left: 5px;
+        filter: blur(30px);
+      }
+
+      &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 190px;
+        width: 190px;
+        border-radius: 100%;
+        background-color: #F0C027;
+        opacity: 30%;
+        top: 160px;
+        right: -170px;
+        filter: blur(50px);
+      }
+
+  label {
+    display: block;
+    text-align: center;
+    font-family: 'oswald';
+    padding: 17px 10px 5px;
+    color: #4AB3C9;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 800;
+  }
+
+  select {
+    display: block;
+    margin: 0 auto;
+  }
+}

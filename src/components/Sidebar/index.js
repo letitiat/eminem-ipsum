@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./Sidebar.scss";
-import Sentences from '../sentences';
+import "./sidebar.scss";
+import Sentences from '../Sentences';
 import Paragraphs from '../Paragraphs';
 
 

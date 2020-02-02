@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import "./sentences.scss";
+import Sentences from "../../images/sentences.svg";
+
 
 class SetSentences extends Component {
   render() {
