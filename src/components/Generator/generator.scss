@@ -1,6 +1,12 @@
+.App {
+  background-color: #610024;
+}
+
+
 .generator-container {
-    background-color: white;
     margin-bottom: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
     color: #202e3a;
     box-shadow: 0 0 20px 0 rgba(50,50,50,0.1);
 }
@@ -10,7 +16,6 @@
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    background-color: #8695B1;
     padding: 12px;
     margin-bottom: 24px;
     color: white;
@@ -18,6 +23,9 @@
 
 #lorem-container {
     padding: 12px;
+    font-family: 'Open Sans';
+    color: white;
+    line-height: 2rem;
 }
 
 @media (max-width: 768px) {
